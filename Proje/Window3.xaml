@@ -1,0 +1,25 @@
+﻿<Window x:Name="editworker" x:Class="Proje.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proje"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Edit Workers" Height="500" Width="350
+        ">
+    <Grid>
+        <TextBox x:Name="workername" HorizontalAlignment="Left" Height="22" Margin="154,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+        <TextBox x:Name="workerssn" HorizontalAlignment="Left" Height="22" Margin="154,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+        <TextBox x:Name="workersalary" HorizontalAlignment="Left" Height="22" Margin="154,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+        <TextBox x:Name="workersurname" HorizontalAlignment="Left" Height="22" Margin="154,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+        <Label Content="Name&#x9;:" HorizontalAlignment="Left" Margin="10,133,0,0" VerticalAlignment="Top" Width="106" Height="26" FontWeight="Bold"/>
+        <Label Content="Surname&#x9;:" HorizontalAlignment="Left" Margin="10,209,0,0" VerticalAlignment="Top" Width="106" Height="29" FontWeight="Bold"/>
+        <Label Content="SSN&#x9;:" HorizontalAlignment="Left" Margin="10,71,0,0" VerticalAlignment="Top" Width="106" Height="29" FontWeight="Bold"/>
+        <Label Content="Salary&#x9;:" HorizontalAlignment="Left" Margin="10,273,0,0" VerticalAlignment="Top" Width="106" Height="27" FontWeight="Bold"/>
+        <Button Content="Add Worker" HorizontalAlignment="Left" Margin="24,321,0,0" VerticalAlignment="Top" Width="298" Height="29" Click="Assign_Click_1"/>
+        <Button Content="Back " HorizontalAlignment="Left" Margin="85,355,0,0" VerticalAlignment="Top" Width="178" Height="29" RenderTransformOrigin="0.193,0.464" Click="Button_Click"/>
+        <Label Content="Enter the informations of the worker below:" HorizontalAlignment="Left" Margin="0,24,-30,0" VerticalAlignment="Top" Width="372" FontWeight="Bold" FontSize="16" Height="42"/>
+
+    </Grid>
+</Window>
